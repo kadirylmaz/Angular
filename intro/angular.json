@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "intro": {
@@ -90,7 +90,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/bootstrap.bundle.min.js",
+              "src/assets/Chart.min.js",
+              "src/assets/dashboard.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "intro"
+    }
+  },
+  "defaultProject": "intro",
+  "cli": {
+    "analytics": "bf01df26-527d-41d5-8f06-5bd77143b7ec"
+  }
 }
